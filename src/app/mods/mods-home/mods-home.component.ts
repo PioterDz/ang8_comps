@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModsHomeComponent implements OnInit {
   modalOpen = false;
+  items = [
+    { title: 'Why is the sky blue?', content: 'Because it is.' },
+    { title: 'What is orange?', content: 'It is fruit.' },
+    { title: 'What color is that cat?', content: 'It\'s black and yellow' }
+  ]
 
   constructor() { }
 
